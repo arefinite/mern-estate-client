@@ -452,7 +452,9 @@ const AdminLayout = () => {
         <Outlet />
         <div className='text-center mb-4'>
           <p className='text-sm text-muted-foreground'>
-            &copy; {new Date().getFullYear()} by Real-Estate | All Rights Reserved
+            &copy; {new Date().getFullYear()} by Real-Estate | All Rights Reserved <br/>
+            Design & Developed by ArefinDev
+            
           </p>
         </div>
         
